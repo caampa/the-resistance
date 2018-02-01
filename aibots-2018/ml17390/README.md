@@ -37,7 +37,7 @@ In order to do that, the following data was collected in the ` sabotage.arff ` f
 
 ```
 
-In this scenario, the Decision Tree built by Weka didn't introduce any improvement. It was proved that it was always profitable to sabotage. (As long as the bot was a spy).
+In this scenario, the Decision Tree built by Weka didn't introduce any improvement. It was proved that it was always profitable to sabotage (as long as the bot was a spy).
 
 
 # Execution
