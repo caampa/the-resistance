@@ -5,8 +5,7 @@ The bot can be tested against others using the competition.py script, which rece
 • Number of games to play.
 • Python file(s) that contains all bots to play with.
 
-The following example runs 1500 games with all bots included in the beginners file and the one implemented 
-in the ml17390.py file:
+The following example runs 1500 games with all bots included in the beginners file and the one implemented in the ml17390.py file:
 
 python competition.py 1500 bots/beginners.py aibots-2018/ml17390/ml17390.py
 
