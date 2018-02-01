@@ -3,11 +3,10 @@
 **ml17390.py** and **information.py** define the implementation of a bot for "The Resistance" game 
 using a Decision Tree as the Artificial Intelligence technique implemented for the behaviour of the bot.
 
-The bot can be tested against others using the competition.py script, which receives the following parameters:
+> The bot can be tested against others using the competition.py script, which receives the following parameters:
+> • Number of games to play.
 
-• Number of games to play.
-
-• Python file(s) that contains all bots to play with.
+> • Python file(s) that contains all bots to play with.
 
 # Execution
 
