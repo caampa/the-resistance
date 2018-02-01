@@ -9,8 +9,7 @@ The following example runs 1500 games with all bots included in the beginners fi
 
 python competition.py 1500 bots/beginners.py aibots-2018/ml17390/ml17390.py
 
-Once the program has executed, it will show an output script with two tables. One indicating the percentage of victories for
-the resistance and the other for the spies.
+Once the program has executed, it will show an output script with two tables. One indicating the percentage of victories for the resistance and the other for the spies.
 
 The two “vote” columns track correct up-votes and correct down-votes, depending on whether it’s spy or or resistance. 
 The “voted” column shows how often others supported a team including this player. 
