@@ -3,7 +3,7 @@
 **ml17390.py** and **information.py** define the implementation of a bot for "The Resistance" game 
 using a Decision Tree as the Artificial Intelligence technique implemented for the behaviour of the bot.
 
-Two different approaches were considered. First, it was considered the idea of implementing a Decision Tree that indicates the bot the probability of the rest of the players begin spies. (This strategy is also used when the bot plays in the resistance side)
+Two different approaches were considered. First, it was considered the idea of implementing a Decision Tree that indicates the bot the probability regarding the rest of the players begin spies. (This strategy is also used when the bot plays in the resistance side)
 The structure of this Decision Tree was obtained by training the gathered data in the ` mission.arff ` file in Weka:
 ` missiong.arrf ` file contains the following features:
 
