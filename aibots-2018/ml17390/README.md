@@ -6,7 +6,6 @@ using a Decision Tree as the Artificial Intelligence technique implemented for t
 The bot can be tested against others using the competition.py script, which receives the following parameters:
 
 • Number of games to play.
-
 • Python file(s) that contains all bots to play with.
 
 # Execution
