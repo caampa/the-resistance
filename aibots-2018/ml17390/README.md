@@ -5,9 +5,9 @@ using a Decision Tree as the Artificial Intelligence technique implemented for t
 
 Two different approaches were considered. First, it was considered the idea of implementing a Decision Tree that indicates the bot the probability of the rest of the players begin spies. (This strategy is also used when the bot plays in the resistance side)
 The structure of this Decision Tree was obtained by training the gathered data in the' mission.arff ' file in Weka:
-' missiong.arrf ' file contains the following features:
+''' missiong.arrf ''' file contains the following features:
 
-' @relation 'Identity'
+``` @relation 'Identity'
 
 @attribute spies_victories {0,1,2}
 @attribute resistance_victories {0,1,2}
@@ -15,21 +15,21 @@ The structure of this Decision Tree was obtained by training the gathered data i
 @attribute non_sabotages {0,1,2,3}
 @attribute votes_up {0,1,2,3,4,5}
 @attribute votes_down {0,1,2,3,4,5}
-@attribute identity {RESISTANCE, SPY} '
+@attribute identity {RESISTANCE, SPY} ```
 
 The obtained results were favourable!
 
 Secondly, it was explored the creation of another Decision Tree that indicates the bot if sabotaging a mission was convenient.
 In order to do that, the following data was collected in the ' sabotage.arff ' file.
 
-' @relation 'Sabotages'
+``` @relation 'Sabotages'
 
 @attribute spies_victories {0,1,2}
 @attribute resistance_victories {0,1,2}
 @attribute spies_in_team {1,2}
 @attribute size_team {2,3}
 @attribute previous_sabotages {0,1,2}
-@attribute sabotage {YES, NO} '
+@attribute sabotage {YES, NO} ```
 
 In this scenario, the Decision Tree built by Weka didn't introduce any improvement. It was proved that was profitable to sabotage always. (As long as the bot was a spy).
 
