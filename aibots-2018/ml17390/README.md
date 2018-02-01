@@ -44,9 +44,8 @@ In this scenario, the Decision Tree built by Weka didn't introduce any improveme
 
 > The bot can be tested against others using the competition.py script, which receives the following parameters:
 >
-> • Number of games to play.
->
-> • Python file(s) that contains all bots to play with.
+> - Number of games to play.
+> - Python file(s) that contains all bots to play with.
 
 The following example runs 1500 games with all bots included in the beginners file and the one implemented in the ml17390.py file:
 
