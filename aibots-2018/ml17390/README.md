@@ -5,8 +5,7 @@ using a Decision Tree as the Artificial Intelligence technique implemented for t
 
 Two different approaches were considered. First, it was considered the idea of implementing a Decision Tree that indicates the bot the probability regarding the rest of the players begin spies. (This strategy is also used when the bot plays in the resistance side).
 
-The structure of this Decision Tree was obtained by training the gathered data in the ` mission.arff ` file in Weka:
-` missiong.arrf ` file contains the following features:
+The structure of this Decision Tree was obtained by training the gathered data in the ` mission.arff ` file in Weka, containeng the following features:
 
 ``` 
 @relation 'Identity'
